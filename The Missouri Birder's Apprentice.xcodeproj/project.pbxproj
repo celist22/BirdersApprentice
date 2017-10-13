@@ -14,6 +14,13 @@
 		0D455E9A1F914CCC00F30DA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D455E981F914CCC00F30DA9 /* LaunchScreen.storyboard */; };
 		0D455EA51F914CCC00F30DA9 /* The_Missouri_Birder_s_ApprenticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D455EA41F914CCC00F30DA9 /* The_Missouri_Birder_s_ApprenticeTests.swift */; };
 		0D455EB01F914CCC00F30DA9 /* The_Missouri_Birder_s_ApprenticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D455EAF1F914CCC00F30DA9 /* The_Missouri_Birder_s_ApprenticeUITests.swift */; };
+		0D455EBE1F914E2E00F30DA9 /* Bird.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D455EBD1F914E2E00F30DA9 /* Bird.swift */; };
+		0D455EC01F91547A00F30DA9 /* County.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D455EBF1F91547A00F30DA9 /* County.swift */; };
+		0D455EC21F9154DD00F30DA9 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D455EC11F9154DD00F30DA9 /* State.swift */; };
+		0D455EC41F9157DC00F30DA9 /* CountyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D455EC31F9157DC00F30DA9 /* CountyTableViewController.swift */; };
+		0D455EC61F91582100F30DA9 /* BirdsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D455EC51F91582100F30DA9 /* BirdsTableViewController.swift */; };
+		0D455EC81F91588200F30DA9 /* BirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D455EC71F91588200F30DA9 /* BirdViewController.swift */; };
+		0DFE1D691F916FBC00D37C20 /* CountyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFE1D681F916FBC00D37C20 /* CountyTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		0D455EAB1F914CCC00F30DA9 /* The Missouri Birder's ApprenticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Missouri Birder's ApprenticeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D455EAF1F914CCC00F30DA9 /* The_Missouri_Birder_s_ApprenticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Missouri_Birder_s_ApprenticeUITests.swift; sourceTree = "<group>"; };
 		0D455EB11F914CCC00F30DA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D455EBD1F914E2E00F30DA9 /* Bird.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bird.swift; sourceTree = "<group>"; };
+		0D455EBF1F91547A00F30DA9 /* County.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = County.swift; sourceTree = "<group>"; };
+		0D455EC11F9154DD00F30DA9 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		0D455EC31F9157DC00F30DA9 /* CountyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountyTableViewController.swift; sourceTree = "<group>"; };
+		0D455EC51F91582100F30DA9 /* BirdsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdsTableViewController.swift; sourceTree = "<group>"; };
+		0D455EC71F91588200F30DA9 /* BirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdViewController.swift; sourceTree = "<group>"; };
+		0DFE1D681F916FBC00D37C20 /* CountyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountyTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +114,13 @@
 				0D455E8F1F914CCC00F30DA9 /* AppDelegate.swift */,
 				0D455E911F914CCC00F30DA9 /* ViewController.swift */,
 				0D455E931F914CCC00F30DA9 /* Main.storyboard */,
+				0D455EC31F9157DC00F30DA9 /* CountyTableViewController.swift */,
+				0DFE1D681F916FBC00D37C20 /* CountyTableViewCell.swift */,
+				0D455EC51F91582100F30DA9 /* BirdsTableViewController.swift */,
+				0D455EC71F91588200F30DA9 /* BirdViewController.swift */,
+				0D455EBD1F914E2E00F30DA9 /* Bird.swift */,
+				0D455EBF1F91547A00F30DA9 /* County.swift */,
+				0D455EC11F9154DD00F30DA9 /* State.swift */,
 				0D455E961F914CCC00F30DA9 /* Assets.xcassets */,
 				0D455E981F914CCC00F30DA9 /* LaunchScreen.storyboard */,
 				0D455E9B1F914CCC00F30DA9 /* Info.plist */,
@@ -257,6 +278,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D455E921F914CCC00F30DA9 /* ViewController.swift in Sources */,
+				0D455EC01F91547A00F30DA9 /* County.swift in Sources */,
+				0D455EBE1F914E2E00F30DA9 /* Bird.swift in Sources */,
+				0D455EC81F91588200F30DA9 /* BirdViewController.swift in Sources */,
+				0D455EC61F91582100F30DA9 /* BirdsTableViewController.swift in Sources */,
+				0DFE1D691F916FBC00D37C20 /* CountyTableViewCell.swift in Sources */,
+				0D455EC41F9157DC00F30DA9 /* CountyTableViewController.swift in Sources */,
+				0D455EC21F9154DD00F30DA9 /* State.swift in Sources */,
 				0D455E901F914CCC00F30DA9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -524,6 +552,7 @@
 				0D455EB61F914CCC00F30DA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0D455EB71F914CCC00F30DA9 /* Build configuration list for PBXNativeTarget "The Missouri Birder's ApprenticeTests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +561,7 @@
 				0D455EB91F914CCC00F30DA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0D455EBA1F914CCC00F30DA9 /* Build configuration list for PBXNativeTarget "The Missouri Birder's ApprenticeUITests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +570,7 @@
 				0D455EBC1F914CCC00F30DA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
