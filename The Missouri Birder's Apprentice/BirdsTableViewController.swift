@@ -14,6 +14,8 @@ class BirdsTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationItem.title = county.countyName
+        tableView.register(CountyTableViewCell.self, forCellReuseIdentifier: "bird_cell")
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -31,12 +33,12 @@ class BirdsTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return county.countyBirds.count
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -46,15 +48,17 @@ class BirdsTableViewController: UITableViewController {
         self.navigationController?.pushViewController(birdVC, animated: true)
     }
     
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
-        // Configure the cell...
+        let cell = tableView.dequeueReusableCell(withIdentifier: "bird_cell", for: indexPath)
+        cell.textLabel?.text = county.countyBirds[indexPath.row].name
+        cell.detailTextLabel?.text = county.countyBirds[indexPath.row].latinName
+        let image = UIImage(named: "Pidgey.png")
+        cell.imageView?.image = image// Configure the cell...
 
         return cell
     }
-    */
+    
 
     /*
     // Override to support conditional editing of the table view.

@@ -22,16 +22,16 @@ class Bird : Equatable, CustomStringConvertible {
         return bird1.description == bird2.description
     }
     
-    init(name:String, latinName:String, location:CLLocationCoordinate2D, dateSighted:String, numSightings:Int){
+    init(name:String, latinName:String, location:CLLocationCoordinate2D, dateSighted:String){
         self.name = name
         self.latinName = latinName
         self.location = location
         self.dateSighted = dateSighted
-        self.numSightings = numSightings
+        self.numSightings = 0
     }
     
-    func updateNumSightings() {
-        numSightings += 1
+    func updateNumSightings(num:Int) {
+        numSightings = num
     }
     
 }

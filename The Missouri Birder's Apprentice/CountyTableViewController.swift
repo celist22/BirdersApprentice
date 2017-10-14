@@ -54,14 +54,19 @@ class CountyTableViewController: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "birdCell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "county_cell", for: indexPath)
 
         let county = State.countyNum(indexPath.row)
         cell.textLabel?.text = county.countyName
         return cell
     }
  
-
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let birdsTVC:BirdsTableViewController = BirdsTableViewController()
+        birdsTVC.county = State.counties[indexPath.row]
+        self.navigationController?.pushViewController(birdsTVC, animated: true)
+    }
     /*
     // Override to support conditional editing of the table view.
     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {

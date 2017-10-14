@@ -11,9 +11,21 @@ import UIKit
 class BirdViewController: UIViewController {
     
     var bird:Bird!  //Bird
-
+    @IBOutlet var locationLBL: UILabel!
+    @IBOutlet var dateLBL: UILabel!
+    @IBOutlet weak var numSightingsTF: UITextField!
+    @IBAction func updateSightingsBTN(_ sender: Any) {
+        let numSightings = Int(numSightingsTF.text!)!
+        if(numSightingsTF.text != nil && numSightings >= 0){
+            bird.updateNumSightings(num: numSightings)
+        }        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        locationLBL.text = "\(bird.location.latitude), \(bird.location.longitude)"
+        dateLBL.text = bird.dateSighted
+        numSightingsTF.text = String(bird.numSightings)
 
         // Do any additional setup after loading the view.
     }

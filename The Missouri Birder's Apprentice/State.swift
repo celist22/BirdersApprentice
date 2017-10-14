@@ -12,7 +12,7 @@ import CoreLocation
 struct State {
     
     //    var kantoBirds:[Bird] = [
-    //        Bird(name: "Pidgy", latinName: "Poppo", location: CLLocationCoordinate2D(latitude: 00.00, longitude: 00.00), dateSighted: "July 16, 2006", numSightings: 0),
+    //        Bird(name: "Pidgey", latinName: "Poppo", location: CLLocationCoordinate2D(latitude: 00.00, longitude: 00.00), dateSighted: "July 16, 2006", numSightings: 0),
     //        Bird(name: "Spearow", latinName: "Onisuzume", location: CLLocationCoordinate2D(latitude: 00.00, longitude: 00.00), dateSighted: "July 16, 2006", numSightings: 0),
     //        Bird(name: "Doduo", latinName: "Dodo", location: CLLocationCoordinate2D(latitude: 00.00, longitude: 00.00), dateSighted: "July 16, 2006", numSightings: 0)
     //    ]
@@ -29,17 +29,17 @@ struct State {
     
     static var counties:[County] = [
         County(countyName: "Kanto", countyBirds: [
-            Bird(name: "Pidgy", latinName: "Poppo", location: CLLocationCoordinate2D(latitude: 00.00, longitude: 00.00), dateSighted: "July 16, 2006", numSightings: 0),
-            Bird(name: "Spearow", latinName: "Onisuzume", location: CLLocationCoordinate2D(latitude: 00.00, longitude: 00.00), dateSighted: "July 16, 2006", numSightings: 0),
-            Bird(name: "Doduo", latinName: "Dodo", location: CLLocationCoordinate2D(latitude: 00.00, longitude: 00.00), dateSighted: "July 16, 2006", numSightings: 0)]),
+            Bird(name: "Pidgey", latinName: "Poppo", location: CLLocationCoordinate2D(latitude: 00.00, longitude: 00.00), dateSighted: "July 16, 2006"),
+            Bird(name: "Spearow", latinName: "Onisuzume", location: CLLocationCoordinate2D(latitude: 00.00, longitude: 00.00), dateSighted: "July 16, 2006"),
+            Bird(name: "Doduo", latinName: "Dodo", location: CLLocationCoordinate2D(latitude: 00.00, longitude: 00.00), dateSighted: "July 16, 2006")]),
         County(countyName: "Johto", countyBirds: [
-            Bird(name: "Hoothoot", latinName: "Hoho", location: CLLocationCoordinate2D(latitude: 00.00, longitude: 00.00), dateSighted: "July 16, 2006", numSightings: 0),
-            Bird(name: "Natu", latinName: "Naty", location: CLLocationCoordinate2D(latitude: 00.00, longitude: 00.00), dateSighted: "July 16, 2006", numSightings: 0),
-            Bird(name: "Skarmory", latinName: "Airmd", location: CLLocationCoordinate2D(latitude: 00.00, longitude: 00.00), dateSighted: "July 16, 2006", numSightings: 0)]),
+            Bird(name: "Hoothoot", latinName: "Hoho", location: CLLocationCoordinate2D(latitude: 00.00, longitude: 00.00), dateSighted: "July 16, 2006"),
+            Bird(name: "Natu", latinName: "Naty", location: CLLocationCoordinate2D(latitude: 00.00, longitude: 00.00), dateSighted: "July 16, 2006"),
+            Bird(name: "Skarmory", latinName: "Airmd", location: CLLocationCoordinate2D(latitude: 00.00, longitude: 00.00), dateSighted: "July 16, 2006")]),
         County(countyName: "Hoenn", countyBirds: [
-            Bird(name: "Torchic", latinName: "Achamo", location: CLLocationCoordinate2D(latitude: 00.00, longitude: 00.00), dateSighted: "July 16, 2006", numSightings: 0),
-            Bird(name: "Taillow", latinName: "Subame", location: CLLocationCoordinate2D(latitude: 00.00, longitude: 00.00), dateSighted: "July 16, 2006", numSightings: 0),
-            Bird(name: "Wingull", latinName: "Camome", location: CLLocationCoordinate2D(latitude: 00.00, longitude: 00.00), dateSighted: "July 16, 2006", numSightings: 0)])
+            Bird(name: "Torchic", latinName: "Achamo", location: CLLocationCoordinate2D(latitude: 00.00, longitude: 00.00), dateSighted: "July 16, 2006"),
+            Bird(name: "Taillow", latinName: "Subame", location: CLLocationCoordinate2D(latitude: 00.00, longitude: 00.00), dateSighted: "July 16, 2006"),
+            Bird(name: "Wingull", latinName: "Camome", location: CLLocationCoordinate2D(latitude: 00.00, longitude: 00.00), dateSighted: "July 16, 2006")])
     ]
     
     static func countyNum(_ index:Int) -> County {
