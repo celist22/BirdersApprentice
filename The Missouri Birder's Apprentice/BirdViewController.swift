@@ -11,9 +11,12 @@ import UIKit
 class BirdViewController: UIViewController {
     
     var bird:Bird!  //Bird
+    //The following are various outlets to which stuff will change depending on the bird
     @IBOutlet var locationLBL: UILabel!
     @IBOutlet var dateLBL: UILabel!
     @IBOutlet weak var numSightingsTF: UITextField!
+    @IBOutlet weak var birdIMG: UIImageView!
+    //This will change the number of sightings on a given bird to the number entered
     @IBAction func updateSightingsBTN(_ sender: Any) {
         let numSightings = Int(numSightingsTF.text!)!
         if(numSightingsTF.text != nil && numSightings >= 0){
@@ -23,10 +26,12 @@ class BirdViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //Setting the text and images to the given bird
         locationLBL.text = "\(bird.location.latitude), \(bird.location.longitude)"
         dateLBL.text = bird.dateSighted
         numSightingsTF.text = String(bird.numSightings)
-
+        let birdImage:UIImage = UIImage(named: "\(bird.name).png")!
+        birdIMG.image = birdImage
         // Do any additional setup after loading the view.
     }
 

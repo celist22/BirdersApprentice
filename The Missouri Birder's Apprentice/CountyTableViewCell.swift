@@ -10,6 +10,7 @@ import UIKit
 
 class CountyTableViewCell: UITableViewCell {
 
+    //County cell
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         super.init(style: .subtitle, reuseIdentifier: reuseIdentifier)
     }

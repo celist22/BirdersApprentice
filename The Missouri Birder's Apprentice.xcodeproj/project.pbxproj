@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D2ECED51F95666600146329 /* Pidgey.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D2ECED41F95658A00146329 /* Pidgey.png */; };
+		0D2ECED71F95681D00146329 /* Spearow.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D2ECED61F95681A00146329 /* Spearow.png */; };
+		0D2ECED91F95684C00146329 /* Doduo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D2ECED81F95684900146329 /* Doduo.png */; };
+		0D2ECEE51F956F6B00146329 /* Articuno.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D2ECEDA1F95689000146329 /* Articuno.png */; };
+		0D2ECEE61F956F6D00146329 /* Zapdos.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D2ECEDD1F956EEB00146329 /* Zapdos.png */; };
+		0D2ECEE71F956F7000146329 /* Moltres.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D2ECEE11F956F0100146329 /* Moltres.png */; };
+		0D2ECEE81F956F7300146329 /* Hoothoot.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D2ECEE31F956F0100146329 /* Hoothoot.png */; };
+		0D2ECEE91F956F7500146329 /* Natu.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D2ECEE21F956F0100146329 /* Natu.png */; };
+		0D2ECEEA1F956F7700146329 /* Murkrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D2ECEE01F956F0100146329 /* Murkrow.png */; };
+		0D2ECEEB1F956F7900146329 /* Skarmory.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D2ECEDF1F956EF100146329 /* Skarmory.png */; };
+		0D2ECEEC1F956F7B00146329 /* Lugia.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D2ECEE41F956F0100146329 /* Lugia.png */; };
+		0D2ECEED1F956F7E00146329 /* Torchic.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D2ECEDE1F956EEB00146329 /* Torchic.png */; };
+		0D2ECEEE1F956F8100146329 /* Taillow.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D2ECEDC1F956EEB00146329 /* Taillow.png */; };
+		0D2ECEEF1F956F8300146329 /* Wingull.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D2ECEDB1F956EEB00146329 /* Wingull.png */; };
 		0D455E901F914CCC00F30DA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D455E8F1F914CCC00F30DA9 /* AppDelegate.swift */; };
 		0D455E921F914CCC00F30DA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D455E911F914CCC00F30DA9 /* ViewController.swift */; };
 		0D455E951F914CCC00F30DA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D455E931F914CCC00F30DA9 /* Main.storyboard */; };
@@ -21,7 +35,6 @@
 		0D455EC61F91582100F30DA9 /* BirdsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D455EC51F91582100F30DA9 /* BirdsTableViewController.swift */; };
 		0D455EC81F91588200F30DA9 /* BirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D455EC71F91588200F30DA9 /* BirdViewController.swift */; };
 		0DFE1D691F916FBC00D37C20 /* CountyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFE1D681F916FBC00D37C20 /* CountyTableViewCell.swift */; };
-		0DFE1D6B1F918C9C00D37C20 /* Pidgey.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DFE1D6A1F918C9C00D37C20 /* Pidgey.png */; settings = {ASSET_TAGS = (Pidgey, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +55,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D2ECED41F95658A00146329 /* Pidgey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Pidgey.png; path = Pictures/Pidgey.png; sourceTree = SOURCE_ROOT; };
+		0D2ECED61F95681A00146329 /* Spearow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Spearow.png; path = Pictures/Spearow.png; sourceTree = SOURCE_ROOT; };
+		0D2ECED81F95684900146329 /* Doduo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Doduo.png; path = Pictures/Doduo.png; sourceTree = SOURCE_ROOT; };
+		0D2ECEDA1F95689000146329 /* Articuno.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Articuno.png; path = Pictures/Articuno.png; sourceTree = SOURCE_ROOT; };
+		0D2ECEDB1F956EEB00146329 /* Wingull.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Wingull.png; path = Pictures/Wingull.png; sourceTree = SOURCE_ROOT; };
+		0D2ECEDC1F956EEB00146329 /* Taillow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Taillow.png; path = Pictures/Taillow.png; sourceTree = SOURCE_ROOT; };
+		0D2ECEDD1F956EEB00146329 /* Zapdos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Zapdos.png; path = Pictures/Zapdos.png; sourceTree = SOURCE_ROOT; };
+		0D2ECEDE1F956EEB00146329 /* Torchic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Torchic.png; path = Pictures/Torchic.png; sourceTree = SOURCE_ROOT; };
+		0D2ECEDF1F956EF100146329 /* Skarmory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Skarmory.png; path = Pictures/Skarmory.png; sourceTree = SOURCE_ROOT; };
+		0D2ECEE01F956F0100146329 /* Murkrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Murkrow.png; path = Pictures/Murkrow.png; sourceTree = SOURCE_ROOT; };
+		0D2ECEE11F956F0100146329 /* Moltres.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Moltres.png; path = Pictures/Moltres.png; sourceTree = SOURCE_ROOT; };
+		0D2ECEE21F956F0100146329 /* Natu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Natu.png; path = Pictures/Natu.png; sourceTree = SOURCE_ROOT; };
+		0D2ECEE31F956F0100146329 /* Hoothoot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Hoothoot.png; path = Pictures/Hoothoot.png; sourceTree = SOURCE_ROOT; };
+		0D2ECEE41F956F0100146329 /* Lugia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Lugia.png; path = Pictures/Lugia.png; sourceTree = SOURCE_ROOT; };
 		0D455E8C1F914CCC00F30DA9 /* The Missouri Birder's Apprentice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Missouri Birder's Apprentice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D455E8F1F914CCC00F30DA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0D455E911F914CCC00F30DA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,7 +89,6 @@
 		0D455EC51F91582100F30DA9 /* BirdsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdsTableViewController.swift; sourceTree = "<group>"; };
 		0D455EC71F91588200F30DA9 /* BirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdViewController.swift; sourceTree = "<group>"; };
 		0DFE1D681F916FBC00D37C20 /* CountyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountyTableViewCell.swift; sourceTree = "<group>"; };
-		0DFE1D6A1F918C9C00D37C20 /* Pidgey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pidgey.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,7 +178,20 @@
 		0DFE1D6C1F918CB800D37C20 /* Pictures */ = {
 			isa = PBXGroup;
 			children = (
-				0DFE1D6A1F918C9C00D37C20 /* Pidgey.png */,
+				0D2ECED41F95658A00146329 /* Pidgey.png */,
+				0D2ECED61F95681A00146329 /* Spearow.png */,
+				0D2ECED81F95684900146329 /* Doduo.png */,
+				0D2ECEDA1F95689000146329 /* Articuno.png */,
+				0D2ECEDD1F956EEB00146329 /* Zapdos.png */,
+				0D2ECEE11F956F0100146329 /* Moltres.png */,
+				0D2ECEE31F956F0100146329 /* Hoothoot.png */,
+				0D2ECEE21F956F0100146329 /* Natu.png */,
+				0D2ECEE01F956F0100146329 /* Murkrow.png */,
+				0D2ECEDF1F956EF100146329 /* Skarmory.png */,
+				0D2ECEE41F956F0100146329 /* Lugia.png */,
+				0D2ECEDE1F956EEB00146329 /* Torchic.png */,
+				0D2ECEDC1F956EEB00146329 /* Taillow.png */,
+				0D2ECEDB1F956EEB00146329 /* Wingull.png */,
 			);
 			path = Pictures;
 			sourceTree = "<group>";
@@ -266,9 +305,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D455E9A1F914CCC00F30DA9 /* LaunchScreen.storyboard in Resources */,
+				0D2ECEEA1F956F7700146329 /* Murkrow.png in Resources */,
+				0D2ECEED1F956F7E00146329 /* Torchic.png in Resources */,
+				0D2ECEEC1F956F7B00146329 /* Lugia.png in Resources */,
+				0D2ECEE71F956F7000146329 /* Moltres.png in Resources */,
+				0D2ECEE91F956F7500146329 /* Natu.png in Resources */,
+				0D2ECED71F95681D00146329 /* Spearow.png in Resources */,
+				0D2ECEEF1F956F8300146329 /* Wingull.png in Resources */,
 				0D455E971F914CCC00F30DA9 /* Assets.xcassets in Resources */,
 				0D455E951F914CCC00F30DA9 /* Main.storyboard in Resources */,
-				0DFE1D6B1F918C9C00D37C20 /* Pidgey.png in Resources */,
+				0D2ECEE81F956F7300146329 /* Hoothoot.png in Resources */,
+				0D2ECEEE1F956F8100146329 /* Taillow.png in Resources */,
+				0D2ECEE51F956F6B00146329 /* Articuno.png in Resources */,
+				0D2ECEEB1F956F7900146329 /* Skarmory.png in Resources */,
+				0D2ECED51F95666600146329 /* Pidgey.png in Resources */,
+				0D2ECEE61F956F6D00146329 /* Zapdos.png in Resources */,
+				0D2ECED91F95684C00146329 /* Doduo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

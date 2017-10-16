@@ -12,10 +12,13 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    static let state = State()
+    static let state = State()  //The model
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        
+        //Override Point for customization after app launch
+        
         window = UIWindow()
         let navCon = UINavigationController(rootViewController: CountyTableViewController())
         window?.rootViewController = navCon

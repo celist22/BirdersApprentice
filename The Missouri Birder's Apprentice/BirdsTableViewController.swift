@@ -14,6 +14,7 @@ class BirdsTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //Sets the title to the name of the County (or region)
         self.navigationItem.title = county.countyName
         tableView.register(CountyTableViewCell.self, forCellReuseIdentifier: "bird_cell")
 
@@ -42,7 +43,7 @@ class BirdsTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
+        //Setting the bird to the one clicked on in the table
         let birdVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "bird_view_controller") as! BirdViewController // now we have a BirdViewController, ready to push onto a                                                    // navigation controller's stack
         birdVC.bird = county.countyBirds[indexPath.row]
         self.navigationController?.pushViewController(birdVC, animated: true)
@@ -50,12 +51,12 @@ class BirdsTableViewController: UITableViewController {
     
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        //Setting up the cell via code
         let cell = tableView.dequeueReusableCell(withIdentifier: "bird_cell", for: indexPath)
         cell.textLabel?.text = county.countyBirds[indexPath.row].name
         cell.detailTextLabel?.text = county.countyBirds[indexPath.row].latinName
-        let image = UIImage(named: "Pidgey.png")
+        let image = UIImage(named: "\(county.countyBirds[indexPath.row].name).png")
         cell.imageView?.image = image// Configure the cell...
-
         return cell
     }
     

@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
+//The county struct... not much more to say
 struct County {
     var countyName:String = ""
     var countyBirds:[Bird] = []

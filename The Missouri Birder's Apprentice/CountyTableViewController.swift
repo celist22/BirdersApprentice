@@ -20,9 +20,10 @@ class CountyTableViewController: UITableViewController {
 
     
     override func viewDidLoad() {
+        //Sets up the County table with nav controller
         super.viewDidLoad()
         self.navigationItem.title = "Regions"
-        
+        //Creates a back button
         self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "back", style: .done, target: nil, action: nil)
         tableView.register(CountyTableViewCell.self, forCellReuseIdentifier: "county_cell")
         // Uncomment the following line to preserve selection between presentations
@@ -63,6 +64,7 @@ class CountyTableViewController: UITableViewController {
  
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        //Selects the county from the table
         let birdsTVC:BirdsTableViewController = BirdsTableViewController()
         birdsTVC.county = State.counties[indexPath.row]
         self.navigationController?.pushViewController(birdsTVC, animated: true)
